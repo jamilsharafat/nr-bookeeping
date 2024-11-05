@@ -1,0 +1,228 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rajdhani:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Rajdhani:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*font family end*/
+
+/*common css start*/
+:root{
+    --Lato:"Lato", serif;
+    --rob:"Roboto", sans-serif;
+
+	--ash:#8e8e8e;
+	--black:#333333;
+	
+}
+body{
+	font-family: var(--Lato);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--ash);
+}
+/*common css end*/
+/*header start*/
+.nav{
+	padding: 20px 0;
+}
+.logo{
+	width: 50%;
+}
+.menu ul li a{
+	font-family: var(--Lato);
+	color: black;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../image/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.b_content{
+	padding: 150px;
+}
+.b_content h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 20px;
+}
+.b_content h4{
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+	padding-bottom: 10px;
+}
+
+/*banner end*/
+/*process start*/
+.process{
+	padding: 150px 0;
+}
+
+
+.p_h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: black;
+}
+
+.p_item{
+	
+	margin-top: 70px;
+}
+.p_item h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+
+}
+.p_item i{
+	margin: 30px 0;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+}
+.p_item p{
+    color: black;
+}
+
+/*process end*/
+/*commitment start*/
+.commitment{
+	padding: 150px 0;
+	background-color: #253551;
+
+}
+.c_h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+}
+.c_h4{
+	
+	font-size: 30px;
+	font-weight: 400;
+	color: white;
+}
+/*commitment end*/
+/*offering start*/
+.offering{
+	padding: 150px;
+}
+.o_h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: black;
+}
+.o_item{
+	margin-top:70px ;
+	background-color:#253551;
+	padding: 30px 30px;
+}
+.o_item h3{
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+
+}
+.o_item p{
+	padding: 30px 0;
+	color: white;
+}
+/*offering end*/
+/*service start*/
+.service{
+	padding: 150px 0 100px;
+	background-color: #253551;
+}
+.s_text{}
+.s_text h1{
+	margin-top: 106px;
+	font-size: 70px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.s_text h3{}
+.s_menu{
+
+}
+.s_menu ul li{
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+}
+/*service end*/
+/*about us start*/
+.slider2{
+	margin: 100px 0;
+}
+.sl_h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: black;
+}
+.s_border{
+	border: 1px solid;
+	padding: 30px 28px 18px;
+	margin-top: 70px;
+}
+.sl_text{
+	margin-top: 20px;
+}
+.sl_h5{
+	font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.sl_p{
+	font-family: var(--rob);
+	font-size: 18px;
+}
+.sl_h6{
+	font-family: var(--rob);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+.sl_lastp{
+	margin-top: 37px;
+	
+	font-family: var(--rob);
+}
+
+
+
+/*about us end*/
+/*contact start*/
+.contact{
+	padding: 100px 0;
+	background-color: #253551;
+}
+.c_text{}
+.co_h2{
+	font-size: 100px;
+	font-weight: 700;
+	color: white;
+}
+.co_p{
+	font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+.co_plast{
+	font-size: 40px;
+	font-weight: 400;
+	color: white;
+}
+.c_icon{}
+.c_icon ul li a{
+	margin-right: 15px;
+	font-size: 70px;
+	color: white;
+}
+
+/*contact end*/
